@@ -4,7 +4,7 @@ import './App.css';
 
 function App() {
   return (
-    <Router basename="/hingskatalog">
+    <Router basename="/wc-stallions">
       <Routes>
         <Route path="/" element={<FlipBook />} />
       </Routes>
