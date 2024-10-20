@@ -1,17 +1,15 @@
 {
-  "name": "hingstkatalog",
-  "private": false,
-  "homepage": "https://loppan1.github.io/hingskatalog",
+  "name": "wc-stallions",
+  "private": true,
+  "homepage": "https://loppan1.github.io/wc-stallions",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "start": "vite",
-    "build": "tsc -b && vite build",
-    "lint": "eslint .",
-    "preview": "vite preview",
+    "build": "vite build",
+    "serve": "vite preview",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "react": "^18.3.1",
